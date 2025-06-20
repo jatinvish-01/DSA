@@ -1,3 +1,5 @@
+// While loop
+
 #include <iostream>
 using namespace std;
 
@@ -7,8 +9,8 @@ int main(){
       cin >> n;
 
       while (i<=n){
-            cout << i << endl;
+            cout << i << " ";
             i++;
       }
       return 0;
-}
+}           
