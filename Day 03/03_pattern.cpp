@@ -1,30 +1,30 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-      int n;
-      cout << "Enter the number: ";
-      cin >> n;
+// int main(){
+//       int n;
+//       cout << "Enter the number: ";
+//       cin >> n;
 
-      int i = 1;
+//       int i = 1;
 
-      while(i<=n){
-            int j = 1;
-            while(j<=n){
-                  cout << j;
-                  j++;
-            }
-            cout << endl;
-            i++;
-      }
-      return 0;
-}
+//       while(i<=n){
+//             int j = 1;
+//             while(j<=n){
+//                   cout << j << " ";
+//                   j++;
+//             }
+//             cout << endl;
+//             i++;
+//       }
+//       return 0;
+// }
 
 // Output:
-// 1234
-// 1234
-// 1234
-// 1234
+// 1 2 3 4 
+// 1 2 3 4 
+// 1 2 3 4 
+// 1 2 3 4 
 
 // Reverse number Patterns
 
@@ -38,7 +38,7 @@ int main(){
       while(i<=n){
             int j = 1;
             while(j<=n){
-                  cout << n-j+1;
+                  cout << n-j+1 << " ";
                   j++;
             }
             cout << endl;
@@ -48,7 +48,7 @@ int main(){
 }
 
 // Output:
-// 4321
-// 4321
-// 4321
-// 4321
+// 4 3 2 1 
+// 4 3 2 1 
+// 4 3 2 1 
+// 4 3 2 1 

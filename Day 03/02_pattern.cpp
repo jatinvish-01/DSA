@@ -11,7 +11,7 @@ int main(){
       while(i<=n){
             int j = 1;
             while(j<=n){
-                  cout << i;
+                  cout << i << " ";
                   j++;
             }
             cout << endl;
@@ -21,7 +21,7 @@ int main(){
 }
 
 // Output:
-// 1111
-// 2222
-// 3333
-// 4444
+// 1 1 1 1 
+// 2 2 2 2 
+// 3 3 3 3 
+// 4 4 4 4 
