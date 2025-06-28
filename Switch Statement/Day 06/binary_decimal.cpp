@@ -10,7 +10,7 @@ int deciamlToBinary_method1(int n){
       int i = 0;
       while(n>0){
             int bit = n%2;
-            binaryNo = bit*pow(10, i++) + binaryNo;
+            binaryNo = bit*pow(10, i++) + binaryNo; // Reverse the number
             n = n/2;
       }
       return binaryNo;
@@ -24,5 +24,3 @@ int main(){
       int binary = deciamlToBinary_method1(n);
       cout << binary << endl;;
 }
-
-
