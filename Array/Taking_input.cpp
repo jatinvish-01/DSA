@@ -33,7 +33,7 @@ int main(){
             cin >> arr[i];
       }
 
-      cout << "Printing the array----" << endl;
+      cout << "Printing the array" << endl;
       for(int i = 0; i<n; i++){
             cout << arr[i] << ", ";
 
