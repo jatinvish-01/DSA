@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 // Function to print Array
@@ -28,7 +29,7 @@ void printEvenOdd(int arr[], int size){
             else{
                   cout << "Odd" << " ";
             }
-      }
+      } 
 }
 
 // Function to count 0 anad 1
@@ -53,8 +54,13 @@ void countZeroOnce(int arr[], int size){
 int main(){
       int arr[10] = {1,0,1,0,1};
       int size = 5;
+
       // printArray(arr, size);
       // printTwiceArray(arr, size);
       // printEvenOdd(arr, size);
+
       countZeroOnce(arr, size);
 }
+
+
+
