@@ -4,6 +4,23 @@ using namespace std;
 
 int main(){
 
+      // min-heap -> minimum value -> Highest Priority
+
+      priority_queue<int, vector<int>, greater<int> > hq;
+
+      hq.push(100);
+      // 100
+      hq.push(67);
+      // 67, 100
+      hq.push(163);
+      // 67, 100, 163
+
+      cout << hq.top() << endl; // 67
+
+      hq.pop();
+      cout <<hq.top() << endl; // 100
+
+
       priority_queue<int> pq;
 //    max-heap -> maximum value -> Highest Priority      
 
