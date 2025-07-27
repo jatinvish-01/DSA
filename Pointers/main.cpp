@@ -78,7 +78,7 @@ int main(){
       // string * str = &st;
       // cout << sizeof(str) << endl;
 
-      
+            
       // int a = 5;
       // int * ptr = &a;
       // cout << ptr << endl;

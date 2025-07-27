@@ -54,38 +54,38 @@ class Student{
 int main(){
       // 1st method to print
 
-      Student a;
-      a.id = 1;
-      a.age = 18;
-      a.name = "Jatin";
-      a.nos = 6;
+      // Student a;
+      // a.id = 1;
+      // a.age = 18;
+      // a.name = "Jatin";
+      // a.nos = 6;
 
-      Student b;
-      b.id = 2;
-      b.age = 15;
-      b.name = "rahul";
-      b.nos = 4;
+      // Student b;
+      // b.id = 2;
+      // b.age = 15;
+      // b.name = "rahul";
+      // b.nos = 4;
 
-      a.study();
-      b.bunk();
+      // a.study();
+      // b.bunk();
 
       // 1st method to print
 
-      Student a(1, 15, "Ramish", 5); // stack memory
-      Student b(2, 14, "Rahul", 5);
-      // Student c(3, 17, "aman", 5);
-      // Student d(4, 15, "sohal", 5);
+      // Student a(1, 15, "Ramish", 5); // stack memory
+      // Student b(2, 14, "Rahul", 5);
+      // // Student c(3, 17, "aman", 5);
+      // // Student d(4, 15, "sohal", 5);
 
-      // cout << a.id << " " << a.name << " " << endl;
+      // // cout << a.id << " " << a.name << " " << endl;
 
-      a.sleep();
-      b.bunk();
+      // a.sleep();
+      // b.bunk();
 
-      // Copy Constructor
-      Student c = (a);
-      c.study();
+      // // Copy Constructor
+      // Student c = (a);
+      // c.study();
 
-      // cout << c.name << " " << a.name << " " << endl;
+      // // cout << c.name << " " << a.name << " " << endl;
 
       // Dynamic allocation, or student pointer
 
