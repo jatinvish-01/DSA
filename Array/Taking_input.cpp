@@ -32,11 +32,9 @@ int main(){
             cout << "Taking intput for indexs: " << i << endl;
             cin >> arr[i];
       }
-
       cout << "Printing the array" << endl;
       for(int i = 0; i<n; i++){
             cout << arr[i] << ", ";
-
       }
       cout << endl;
 }
